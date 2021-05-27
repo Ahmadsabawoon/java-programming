@@ -5,8 +5,8 @@ public class CountUsingSplit {
 
         String catTypes = "bengal cat tabby cat persian cat no cat here";
         String [] catArrays = catTypes.split("cat");
-        System.out.println("number of 'cats' = " + (catArrays.length -1));
-
+        System.out.println("number of 'cats' = " + (catArrays.length-1));
+        // String Spliting [] = cattypes.split("cat");
         for (String type : catArrays) {
             System.out.println(type);
         }
@@ -22,9 +22,6 @@ public class CountUsingSplit {
 //            }
 //        }
 //        System.out.println("count of cats : " + count);
-
-
-
 
 
 //String catTypes = "bengal cat tabby cat persian cat no cat here";
@@ -59,23 +56,6 @@ public class CountUsingSplit {
 //        }
 //
 //        System.out.println(count);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

@@ -33,17 +33,5 @@ public class SplitReview {
             System.out.println("Invalid password");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -9,9 +9,9 @@ public class AWSZones {
 
         System.out.println("----- Starting deployment if esty app to AWS zones --------");
 
-        String [] zonesToDeploy = zones.split(",");
-        for (String eachZones: zonesToDeploy) {
-            System.out.println("Deploying ["+app+"] to " + eachZones + " ... ");
+        String[] zonesToDeploy = zones.split(",");
+        for (String eachZones : zonesToDeploy) {
+            System.out.println("Deploying [" + app + "] to " + eachZones + " ... ");
             System.out.println("Deployment completed for " + eachZones + " ... ");
         }
      /*

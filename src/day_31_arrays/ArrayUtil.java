@@ -42,30 +42,6 @@ int nums[] = {5, 1, 5, 8, 778, 56, 3};
         Arrays.sort(words, Collections.reverseOrder());
 
         System.out.println(Arrays.toString(words));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }

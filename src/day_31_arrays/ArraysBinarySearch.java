@@ -21,6 +21,12 @@ public class ArraysBinarySearch {
         }
 
 
+       //  What is binary Search
+        //   binary search will give you the index number of element / you have to mentioned the variable name and than the value number.
+
+        System.out.println(Arrays.binarySearch(nums, 40));
+
+
 
 
 
