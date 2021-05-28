@@ -10,6 +10,14 @@ public class Address {
     private String zipcode;
     private String country = "USA";
 
+    // constructor = special method and no return type and same name as class name
+    public Address() {
+        System.out.println("Address constructor");
+        street = "123 unknown st";
+        city = "unknown";
+        state = "unknown";
+        zipcode ="0000";
+    }
 
     public String toString() {
         return street +", " + city +", " + state + " " + zipcode;
