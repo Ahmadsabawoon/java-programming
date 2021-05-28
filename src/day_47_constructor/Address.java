@@ -1,5 +1,7 @@
 package day_47_constructor;
 
+import day_20_String_manupulatio.StringReplace;
+
 import java.security.PrivilegedExceptionAction;
 
 public class Address {
@@ -17,6 +19,16 @@ public class Address {
         city = "unknown";
         state = "unknown";
         zipcode ="0000";
+    }
+    // second constructor : overloaded constructor -> provides shortcut to initialize variables
+    // in same statement : ex : Address ad = new Address("123 java Street, Suite 47)
+        public Address (String street, String city, String state, String zipcode) {
+
+       // this.street = street;
+            setStreet(street);  // kind of reuse the code in setter method
+            this.city= city;
+            this.zipcode=zipcode;
+
     }
 
     public String toString() {

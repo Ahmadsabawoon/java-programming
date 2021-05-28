@@ -15,7 +15,17 @@ public class AddressList {
         System.out.println("street ifo = " + cybertekAddress.getStreet());
 
         Address newAddress = new Address();
-        System.out.println(newAddress.toString());
+        newAddress.setStreet("jadjf;lja;fj;lasj;fd");
+        newAddress.setStreet("El Cajon");
+        newAddress.setZipcode("92021");
+
+        Address papaJohnPizza = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
+        System.out.println("Papa John pizza = " + papaJohnPizza.toString());
+
+
+
+
+
 
 
     }
